@@ -10,11 +10,11 @@ const officeBearers = {
   ],
   facultyCoordinator: { name: 'Dr. PRAPULLA S B', title: 'Assistant Professor, CSE', image: '/images/psb.jpg' },
   coreTeam: [
-    { name: 'President', title: 'Prathik P Keakre, ECE', image: '/images/prathik.jpg' },
+    { name: 'President', title: 'Prathik P Kekare, ECE', image: '/images/prathik.jpg' },
     { name: 'Vice-President', title: 'Rupini Hulikatti, IEM', image: '/images/rupini.jpg' },
     { name: 'Secretary', title: 'R Sunidhi, ECE', image: '/images/sunidhi.jpg' },
     { name: 'Joint Secretary', title: 'Ranjith D S, MECH', image: '/images/ranjith.jpg' },
-    { name: 'Treasurer', title: 'Tejas Math, ECE', image: '/images/tejas.jpg' },
+    { name: 'Treasurer', title: 'Tejas Math, ECE', image: '/images/tejas.jpeg' },
   ],
   wings: [
     { name: 'Activities & Events', title: 'Prajwal Jathanna, ECE', image: '/images/prajwal.jpg' },
@@ -25,7 +25,7 @@ const officeBearers = {
     { name: 'P, R &D', title: 'Shriyansh Agarwal, CSE(CY)', image: '/images/shriyansh.jpg' },
     { name: 'P, R &D', title: 'Ranjith D S, MECH', image: '/images/ranjith.jpg' },
     { name: 'Women Empowerment', title: 'Aarushi Das, BT', image: '/images/aarushi.jpg' },
-    { name: 'Women Empowerment', title: 'Dhruthi Rudrangi, CSE', image: '/images/dhruthi.jpg' },
+    { name: 'Women Empowerment', title: 'Dhruthi Rudrangi, ISE', image: '/images/dhruthi.jpg' },
   ],
 };
 
