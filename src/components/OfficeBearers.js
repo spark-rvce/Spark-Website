@@ -10,20 +10,22 @@ const officeBearers = {
   ],
   facultyCoordinator: { name: 'Dr. PRAPULLA S B', title: 'Assistant Professor, CSE', image: '/images/psb.jpg' },
   coreTeam: [
-    { name: 'President', title: 'Ashok R, ASE', image: '/images/ashok.png' },
-    { name: 'Vice-President', title: 'Nikhitha Sunil, IEM', image: '/images/nikitha.png' },
-    { name: 'Secretary', title: 'Jigyasa Agrawal, CSE (CY)', image: '/images/jigyasa.png' },
-    { name: 'Treasurer', title: 'Harsh Gupta, ISE', image: '/images/harsh.png' },
+    { name: 'President', title: 'Prathik P Keakre, ECE', image: '/images/prathik.jpg' },
+    { name: 'Vice-President', title: 'Rupini Hulikatti, IEM', image: '/images/rupini.jpg' },
+    { name: 'Secretary', title: 'R Sunidhi, ECE', image: '/images/sunidhi.jpg' },
+    { name: 'Joint Secretary', title: 'Ranjith D S, MECH', image: '/images/ranjith.jpg' },
+    { name: 'Treasurer', title: 'Tejas Math, ECE', image: '/images/tejas.jpg' },
   ],
   wings: [
-    { name: 'Activities & Events', title: 'Abhishek Saraff, CSE (CY)', image: '/images/abhishek.png' },
-    { name: 'Industrial Connect and People\'s Operations', title: 'Adarsh Srivastava, CSE (CY)', image: '/images/adarsh.png' },
-    { name: 'Industrial Connect and People\'s Operations', title: 'Poorna Chandra K S, CSE', image: '/images/poorna.png' },
-    { name: 'Social Media', title: 'Gayathri V, CHE', image: '/images/gayathri.png' },
-    { name: 'Projects', title: 'Abhishek S, IEM', image: '/images/abhishek_im.png' },
-    { name: 'Projects', title: 'Chinmaya Nadig, IEM', image: '/images/chinmaya.png' },
-    { name: 'Research & Development', title: 'Yashwanth R, MECH', image: '/images/yashwanth.png' },
-    { name: 'Women Empowerment', title: 'Nikhitha Sunil, IEM', image: '/images/nikitha.png' },
+    { name: 'Activities & Events', title: 'Prajwal Jathanna, ECE', image: '/images/prajwal.jpg' },
+    { name: 'Industrial Connect and People\'s Operations', title: 'Harshit Saroha, ETE', image: '/images/harshit.jpg' },
+    { name: 'Industrial Connect and People\'s Operations', title: 'Aaditya Raj, CSE(CY)', image: '/images/aaditya.jpg' },
+    { name: 'Social Media', title: 'Sachin Gowda, EEE', image: '/images/sachin.jpg' },
+    { name: 'Social Media', title: 'Vijaylaxmi Patil, EIE', image: '/images/vijaylaxmi.jpg' },
+    { name: 'P, R &D', title: 'Shriyansh Agarwal, CSE(CY)', image: '/images/shriyansh.jpg' },
+    { name: 'P, R &D', title: 'Ranjith D S, MECH', image: '/images/ranjith.jpg' },
+    { name: 'Women Empowerment', title: 'Aarushi Das, BT', image: '/images/aarushi.jpg' },
+    { name: 'Women Empowerment', title: 'Dhruthi Rudrangi, CSE', image: '/images/dhruthi.jpg' },
   ],
 };
 
@@ -32,8 +34,6 @@ const OfficeBearers = () => {
 
   return (
     <animated.div style={props} className="office-bearers">
-      <h1>Office Bearers</h1>
-      <img src="/images/flowchart.png" alt="Flowchart" className="flowchart-image" />
       <section className="details chairman-section">
         <div className="section-header">Chairman</div>
         <div className="bearer-card center-card">
