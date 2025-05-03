@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.activity-page {
+  padding: 20px;
+}
+
+/* Default styles for larger screens */
+.activity-section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.activity-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns for larger screens */
+  gap: 20px; /* Adds space between the activity slots */
+}
+
+.activity-slot {
+  background: #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content within the slot */
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.activity-slot:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+.activity-slot img {
+  width: 100%;
+  height: 150px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure images cover the box without distortion */
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.activity-slot p {
+  margin: 0;
+  text-align: center;
+}
+
+.activity-slot .activity-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.activity-slot .activity-description {
+  flex-grow: 1; /* Make the description take up equal space */
+  display: flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  text-align: center;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  /* Adjust the grid to 2 columns for tablets */
+  .activity-details {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+
+  .activity-header {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust the grid to 1 column for phones */
+  .activity-details {
+    grid-template-columns: 1fr; /* Single column for mobile phones */
+  }
+
+  .activity-header {
+    font-size: 18px;
+  }
+
+  .activity-slot {
+    padding: 8px;
+  }
+
+  .activity-slot img {
+    height: 120px; /* Reduce image height for smaller screens */
+  }
+  
+  .activity-section {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+}
