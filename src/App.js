@@ -11,6 +11,7 @@ import Reports from './components/Reports';
 import Projects from './components/Projects';
 // import Archives from './components/Archives';
 import ContactUs from './components/ContactUs';
+import Credits from './components/Credits';
 import './App.css';
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/reports" element={<Reports />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/credits" element={<Credits />} />
         </Routes>
       </main>
       <Footer />

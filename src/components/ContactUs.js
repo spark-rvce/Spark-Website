@@ -15,15 +15,15 @@ const ContactUs = () => {
         </div>
         
         <div className="contact-card">
-          <h2>Ashok R</h2>
+          <h2>Prathik P Kekare</h2>
           <p className="role">President</p>
-          <p className="email">Email: ashokr.ae22@rvce.edu.in</p>
+          <p className="email">Email: prathikpkekare.ec23@rvce.edu.in</p>
         </div>
         
         <div className="contact-card">
-          <h2>Jigyasa Agrawal</h2>
+          <h2>R Sunidhi</h2>
           <p className="role">Secretary</p>
-          <p className="email">Email: jigyasaagrawal.cy22@rvce.edu.in</p>
+          <p className="email">Email: rsunidhi.ec23@rvce.edu.in</p>
         </div>
       </div>
       
