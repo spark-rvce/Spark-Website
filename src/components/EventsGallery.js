@@ -5,7 +5,7 @@ const eventsData = [
   {
     title: "IASF 2025",
     images: ['/images/events/12.1.jpg', '/images/events/12.2.jpg', '/images/events/12.3.jpg', '/images/events/12.4.jpg'],
-    description: "Glimpses from IASF 2025 at "
+    description: "Glimpses from IASF 2025 at VNRVJIET"
   },
   {
     title: "KAIGA Industry Visit",
