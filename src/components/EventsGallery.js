@@ -1,6 +1,17 @@
+import { title } from 'framer-motion/client';
 import React, { useState, useEffect } from 'react';
 
 const eventsData = [
+  {
+    title: "IASF 2025",
+    images: ['/images/events/12.1.jpg', '/images/events/12.2.jpg', '/images/events/12.3.jpg', '/images/events/12.4.jpg'],
+    description: "Glimpses from IASF 2025 at "
+  },
+  {
+    title: "KAIGA Industry Visit",
+    images: ['/images/events/13.1.jpg', '/images/events/13.2.jpg', '/images/events/13.3.jpg', '/images/events/13.4.jpg'],
+    description: "SPARK's industry visit to KAIGA Nuclear Power Plant"
+  },
   {
     title: "Razz Security Workshop",
     images: ['/images/events/11.1.jpg', '/images/events/11.2.jpg', '/images/events/11.3.jpg', '/images/events/11.4.jpg'],
